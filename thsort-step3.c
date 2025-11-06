@@ -46,7 +46,6 @@ char **readlines(int *num_lines) {
 }
 
 void printlines(char **lines, int num_lines) {
-    printf("\nAll lines entered:\n");
     for (int i = 0; i < num_lines; i++) {
         printf("%s", lines[i]);
     }
