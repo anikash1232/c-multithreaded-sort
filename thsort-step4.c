@@ -54,7 +54,6 @@ int cmp(const void *a, const void *b) {
 }
 
 void printlines(char **lines, int num_lines) {
-    printf("\nSorted lines:\n");
     for (int i = 0; i < num_lines; i++) {
         printf("%s", lines[i]);
     }
